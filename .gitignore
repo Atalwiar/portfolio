@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# production build
+dist/
+
+# local environment variables
+.env
+.env.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# lock files (optional if you don't want to commit them)
+package-lock.json
